@@ -1,0 +1,58 @@
+.header {
+  background: url("../src/img/weather.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  size: 80vmax;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search {
+  height: 4vh;
+  width: 55vh;
+}
+
+.header h1 {
+  top: 50%;
+  left: 50%;
+}
+
+.weatherImg h1 {
+  color: rgb(0, 0, 0);
+  border: 2px red;
+
+}
+
+.weatherResult {
+  border: 1px solid black;
+  margin: 3.5vh 0px 5vh 50vh;
+  width: 580px;
+  height: 300px;
+}
+
+h2 {
+  margin-left: 35vmax;
+}
+
+.city {
+  font-size: 35px;
+  margin-left: 25vh;
+  margin-top: 2.95vh;
+}
+
+.temp {
+  font-size: 45px;
+  margin-left: 25vh;
+  margin-top: 2.95vh;
+}
+
+.cloudBg {
+  width: 121px;
+  height: 99px;
+  margin-left: 26.95vh;
+  margin-top: 3.5vh;
+}
